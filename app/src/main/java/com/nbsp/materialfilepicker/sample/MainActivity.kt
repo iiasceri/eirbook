@@ -143,7 +143,8 @@ class MainActivity : AppCompatActivity() {
                 writer.close()
                 runOnUiThread {
                     info.text = fileResult.absolutePath + "\n\n" + resultStr
-                    MediaPlayer.create(this, R.raw.happy).start()
+                    if (music.isChecked)
+                        MediaPlayer.create(this, R.raw.happy).start()
                 }
             }
         }
@@ -156,7 +157,6 @@ class MainActivity : AppCompatActivity() {
             val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
             StrictMode.setThreadPolicy(policy)
             val document = Jsoup.connect(url).get()
-
 
             val addresses = document.getElementsByClass("result-address")
             var i = 1
@@ -236,5 +236,4 @@ class MainActivity : AppCompatActivity() {
         private const val PERMISSIONS_REQUEST_CODE = 0
         private const val FILE_PICKER_REQUEST_CODE = 1
     }
-
 }

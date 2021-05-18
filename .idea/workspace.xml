@@ -10,18 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21165352-0fcb-40b0-a720-56e51591467a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nbsp/materialfilepicker/sample/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nbsp/materialfilepicker/sample/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621359719624</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Enter">
+      <created>1621361189594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621361189594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Search first">
+      <created>1621361330215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621361330215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -129,9 +134,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hjghjghj" />
-    <option name="LAST_COMMIT_MESSAGE" value="hjghjghj" />
+    <MESSAGE value="Enter" />
+    <MESSAGE value="Search first" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search first" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621361622689">
+      <screen x="0" y="25" width="1344" height="755" />
+    </state>
+    <state x="390" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1344.755@0.25.1344.755" timestamp="1621361622689" />
     <state x="254" y="102" width="707" height="585" key="#xdebugger.evaluate" timestamp="1619875582437">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
@@ -144,50 +155,50 @@
       <screen x="0" y="25" width="1344" height="755" />
     </state>
     <state x="441" y="153" key="AndroidProcessChooserDialog/0.25.1344.755@0.25.1344.755" timestamp="1621361096894" />
-    <state x="303" y="25" key="CommitChangelistDialog2" timestamp="1621359719292">
+    <state x="303" y="25" key="CommitChangelistDialog2" timestamp="1621361330015">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state x="303" y="25" key="CommitChangelistDialog2/0.25.1344.755@0.25.1344.755" timestamp="1621359719292" />
-    <state width="1302" height="188" key="GridCell.Tab.0.bottom" timestamp="1621361097452">
+    <state x="303" y="25" key="CommitChangelistDialog2/0.25.1344.755@0.25.1344.755" timestamp="1621361330015" />
+    <state width="1302" height="188" key="GridCell.Tab.0.bottom" timestamp="1621361148327">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1302" height="188" key="GridCell.Tab.0.bottom/0.25.1344.755@0.25.1344.755" timestamp="1621361097452" />
-    <state width="1302" height="188" key="GridCell.Tab.0.center" timestamp="1621361097451">
+    <state width="1302" height="188" key="GridCell.Tab.0.bottom/0.25.1344.755@0.25.1344.755" timestamp="1621361148327" />
+    <state width="1302" height="188" key="GridCell.Tab.0.center" timestamp="1621361148326">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1302" height="188" key="GridCell.Tab.0.center/0.25.1344.755@0.25.1344.755" timestamp="1621361097451" />
-    <state width="1302" height="188" key="GridCell.Tab.0.left" timestamp="1621361097451">
+    <state width="1302" height="188" key="GridCell.Tab.0.center/0.25.1344.755@0.25.1344.755" timestamp="1621361148326" />
+    <state width="1302" height="188" key="GridCell.Tab.0.left" timestamp="1621361148326">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1302" height="188" key="GridCell.Tab.0.left/0.25.1344.755@0.25.1344.755" timestamp="1621361097451" />
-    <state width="1302" height="188" key="GridCell.Tab.0.right" timestamp="1621361097452">
+    <state width="1302" height="188" key="GridCell.Tab.0.left/0.25.1344.755@0.25.1344.755" timestamp="1621361148326" />
+    <state width="1302" height="188" key="GridCell.Tab.0.right" timestamp="1621361148327">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1302" height="188" key="GridCell.Tab.0.right/0.25.1344.755@0.25.1344.755" timestamp="1621361097452" />
-    <state width="1300" height="188" key="GridCell.Tab.1.bottom" timestamp="1619878851149">
+    <state width="1302" height="188" key="GridCell.Tab.0.right/0.25.1344.755@0.25.1344.755" timestamp="1621361148327" />
+    <state width="1302" height="188" key="GridCell.Tab.1.bottom" timestamp="1621361148328">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1300" height="188" key="GridCell.Tab.1.bottom/0.25.1344.755@0.25.1344.755" timestamp="1619878851149" />
-    <state width="1300" height="188" key="GridCell.Tab.1.center" timestamp="1619878851148">
+    <state width="1302" height="188" key="GridCell.Tab.1.bottom/0.25.1344.755@0.25.1344.755" timestamp="1621361148328" />
+    <state width="1302" height="188" key="GridCell.Tab.1.center" timestamp="1621361148327">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1300" height="188" key="GridCell.Tab.1.center/0.25.1344.755@0.25.1344.755" timestamp="1619878851148" />
-    <state width="1300" height="188" key="GridCell.Tab.1.left" timestamp="1619878851148">
+    <state width="1302" height="188" key="GridCell.Tab.1.center/0.25.1344.755@0.25.1344.755" timestamp="1621361148327" />
+    <state width="1302" height="188" key="GridCell.Tab.1.left" timestamp="1621361148327">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1300" height="188" key="GridCell.Tab.1.left/0.25.1344.755@0.25.1344.755" timestamp="1619878851148" />
-    <state width="1300" height="188" key="GridCell.Tab.1.right" timestamp="1619878851149">
+    <state width="1302" height="188" key="GridCell.Tab.1.left/0.25.1344.755@0.25.1344.755" timestamp="1621361148327" />
+    <state width="1302" height="188" key="GridCell.Tab.1.right" timestamp="1621361148327">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state width="1300" height="188" key="GridCell.Tab.1.right/0.25.1344.755@0.25.1344.755" timestamp="1619878851149" />
+    <state width="1302" height="188" key="GridCell.Tab.1.right/0.25.1344.755@0.25.1344.755" timestamp="1621361148327" />
     <state x="260" y="149" key="IDE.errors.dialog" timestamp="1619878975747">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
     <state x="260" y="149" key="IDE.errors.dialog/0.25.1344.755@0.25.1344.755" timestamp="1619878975747" />
-    <state x="272" y="139" key="Vcs.Push.Dialog.v2" timestamp="1621359721093">
+    <state x="272" y="139" key="Vcs.Push.Dialog.v2" timestamp="1621361331328">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
-    <state x="272" y="139" key="Vcs.Push.Dialog.v2/0.25.1344.755@0.25.1344.755" timestamp="1621359721093" />
+    <state x="272" y="139" key="Vcs.Push.Dialog.v2/0.25.1344.755@0.25.1344.755" timestamp="1621361331328" />
     <state width="672" height="377" key="XDebugger.FullValuePopup" timestamp="1619874504428">
       <screen x="0" y="25" width="1344" height="755" />
     </state>
@@ -200,16 +211,5 @@
       <screen x="0" y="25" width="1344" height="755" />
     </state>
     <state x="337" y="104" width="670" height="676" key="search.everywhere.popup/0.25.1344.755@0.25.1344.755" timestamp="1619872798418" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/nbsp/materialfilepicker/sample/MainActivity.kt</url>
-          <line>55</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
