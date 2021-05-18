@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                 for ((i, name) in namesRange.withIndex()) {
                     scrap(name)
                     runOnUiThread {
-                        info.text = "$i/$total"
+                        info.text = "$i/$total\n$resultStr"
                     }
                 }
 
@@ -120,18 +120,22 @@ class MainActivity : AppCompatActivity() {
 
     private fun scrap(name: String) {
         try {
-            val url = "https://www.eirphonebook.ie/q/name/where/Dublin/who/$name/?customerType=RESIDENTIAL"
+            val url = "https://www.eirphonebook.ie/q/name/who/$name/?customerType=RESIDENTIAL"
             //Connect to website
             val policy = StrictMode.ThreadPolicy.Builder().permitAll().build()
             StrictMode.setThreadPolicy(policy)
             val document = Jsoup.connect(url).get()
-            val nameFull = document.getElementById("listingbase1").text()
+
+
             val addresses = document.getElementsByClass("result-address")
+            var i = 1
             for (address in addresses) {
+                val nameFull = document.getElementById("listingbase$i").text()
                 val addressText = address.text()
                 if (addressText.toLowerCase().contains("dublin")) {
-                    resultStr += nameFull + "\n" + addressText + "\n"
+                    resultStr += nameFull + "\n" + addressText + "\n\n"
                 }
+                i++
             }
         } catch (e: Exception) {
             e.printStackTrace()
