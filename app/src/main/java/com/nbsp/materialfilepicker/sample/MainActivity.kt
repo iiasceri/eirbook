@@ -8,6 +8,7 @@ import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.graphics.Color
 import android.media.MediaPlayer
 import android.os.*
+import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
@@ -50,6 +51,18 @@ class MainActivity : AppCompatActivity() {
         } catch (e: java.lang.Exception) {
             e.printStackTrace()
         }
+
+        last.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+            if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
+                this.currentFocus?.let { view ->
+                    val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
+                    imm?.hideSoftInputFromWindow(view.windowToken, 0)
+                }
+                runSearch()
+                return@OnKeyListener false
+            }
+            false
+        })
     }
 
     private fun peep(view: View, color: Int = Color.RED) {
@@ -68,6 +81,10 @@ class MainActivity : AppCompatActivity() {
             imm?.hideSoftInputFromWindow(view.windowToken, 0)
         }
 
+        runSearch()
+    }
+
+    fun runSearch() {
         var firstCheck = true
         var lastCheck = true
         firstStr = getWithoutDiacritics(first.text.toString()).toLowerCase()
@@ -103,8 +120,10 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-                val fileResult = File(Environment.getExternalStorageDirectory().toString()
-                        + "/Download/" + File.separator + "$firstStr-$lastStr.txt")
+                val fileResult = File(
+                    Environment.getExternalStorageDirectory().toString()
+                            + "/Download/" + File.separator + "$firstStr-$lastStr.txt"
+                )
                 fileResult.createNewFile()
                 val writer = FileWriter(fileResult)
                 writer.append(resultStr)
@@ -160,8 +179,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkPermissions() {
-        val permissionGranted = checkSelfPermission(this, READ_EXTERNAL_STORAGE) == PERMISSION_GRANTED
-        val permissionGranted2 = checkSelfPermission(this, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+        val permissionGranted =
+            checkSelfPermission(this, READ_EXTERNAL_STORAGE) == PERMISSION_GRANTED
+        val permissionGranted2 =
+            checkSelfPermission(this, WRITE_EXTERNAL_STORAGE) == PERMISSION_GRANTED
 
         if (permissionGranted && permissionGranted2) {
             println("greit")
@@ -170,9 +191,9 @@ class MainActivity : AppCompatActivity() {
                 showError()
             } else {
                 requestPermissions(
-                        this,
-                        arrayOf(READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE),
-                        PERMISSIONS_REQUEST_CODE
+                    this,
+                    arrayOf(READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE),
+                    PERMISSIONS_REQUEST_CODE
                 )
             }
         }
@@ -183,9 +204,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onRequestPermissionsResult(
-            requestCode: Int,
-            permissions: Array<String>,
-            grantResults: IntArray
+        requestCode: Int,
+        permissions: Array<String>,
+        grantResults: IntArray
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
 
